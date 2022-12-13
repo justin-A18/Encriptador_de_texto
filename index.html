@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <title>Encriptador</title>
+</head>
+<body>
+    <header class="header">
+        <picture class="picture">
+            <img class="image" src="./src/logo/programming-svgrepo-com.svg" alt="logo"/>
+        </picture>
+        <h1 class="title">Encriptador</h1>
+    </header>
+    <main class="container__encriptador">
+        <section class="section__input">
+            <div class="input__content">
+                <textarea
+                id="text"
+                class="input"
+                cols="30"
+                rows="10"
+                placeholder="escribe tu mensaje"
+                ></textarea>
+            </div>
+            <div class="buttons__content">
+                <button type="button" id="btn_encriptador">encriptar</button>
+                <button type="button" id="btn_desencriptador">desencriptar</button>
+        </div>
+        </section>
+        <section class="section__encriptado">
+            <div class="primera__subsection">
+                <textarea
+                class="input-2"
+                name="texto-encriptado"
+                cols="30"
+                rows="10"
+                id="pizarra_encriptador"
+                ></textarea>
+                <button class="copiar" type="button" id="copiar">copiar texto</button>
+            </div>
+            <div class="segunda__subsection" id="subsection-none">
+                <img class="image-2" src="./src/img/image-1.png" alt="image" />
+                <h2>Ningun Mensaje Fue Encontrado</h2>
+                <p>Ingrese el texto que desea encriptar o desemcriptar</p>
+            </div>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

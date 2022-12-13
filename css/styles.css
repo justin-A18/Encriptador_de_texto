@@ -1,0 +1,130 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*:before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+.header .picture {
+  padding: 1rem;
+}
+.header .picture .image {
+  width: 5rem;
+}
+
+.container__encriptador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.container__encriptador .section__input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container__encriptador .section__input .input__content .input {
+  width: 30rem;
+  height: 50rem;
+  resize: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: thin solid rgba(153, 153, 153, 0.6);
+  font-size: 1.7rem;
+}
+.container__encriptador .section__input .buttons__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container__encriptador .section__input .buttons__content button {
+  width: 12rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: thin solid transparent;
+  background-color: rgb(144, 174, 245);
+  color: white;
+  text-transform: uppercase;
+  transition: background-color 500ms linear 200ms;
+}
+.container__encriptador .section__input .buttons__content button:hover {
+  cursor: pointer;
+  background-color: rgb(44, 102, 236);
+}
+.container__encriptador .section__encriptado {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container__encriptador .section__encriptado .primera__subsection {
+  position: relative;
+}
+.container__encriptador .section__encriptado .primera__subsection .input-2 {
+  width: 30rem;
+  height: 50rem;
+  resize: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: thin solid rgba(153, 153, 153, 0.6);
+  font-size: 1.7rem;
+}
+.container__encriptador .section__encriptado .segunda__subsection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 30rem;
+  height: 50rem;
+  background-color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.container__encriptador .section__encriptado .segunda__subsection .image-2 {
+  width: 30rem;
+}
+
+#copiar {
+  display: none;
+  width: 12rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: thin solid transparent;
+  background-color: rgb(144, 174, 245);
+  color: white;
+  text-transform: uppercase;
+  transition: background-color 500ms linear 200ms;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+#copiar:hover {
+  cursor: pointer;
+  background-color: rgb(44, 102, 236);
+}
+
+@media (max-width: 760px) {
+  .container__encriptador {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,18 @@
+#copiar{
+    display: none;
+    width: 12rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: thin solid transparent;
+    background-color: rgb(144, 174, 245);
+    color: white;
+    text-transform: uppercase;
+    transition: background-color 500ms linear 200ms;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(44, 102, 236);
+    }
+}

@@ -1,0 +1,83 @@
+.container__encriptador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    .section__input{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .input__content{
+            .input{
+                width: 30rem;
+                height: 50rem;
+                resize: none;
+                padding: 1rem;
+                border-radius: 1rem;
+                border: thin solid #9999;
+                font-size: 1.7rem;
+            }
+        }
+
+        .buttons__content{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            button{
+                width: 12rem;
+                padding: 1rem;
+                border-radius: 1rem;
+                border: thin solid transparent;
+                background-color: rgb(144, 174, 245);
+                color: white;
+                text-transform: uppercase;
+                transition: background-color 500ms linear 200ms;
+
+                &:hover{
+                    cursor: pointer;
+                    background-color: rgb(44, 102, 236);
+                }
+            }
+        }
+    }
+
+    .section__encriptado{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .primera__subsection{
+
+            position: relative;
+
+            .input-2{
+
+                width: 30rem;
+                height: 50rem;
+                resize: none;
+                padding: 1rem;
+                border-radius: 1rem;
+                border: thin solid #9999;
+                font-size: 1.7rem;
+            }
+        }
+        .segunda__subsection{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            position: absolute;
+            width: 30rem;
+            height: 50rem;
+            background-color: white;
+            font-size: 2rem;
+            text-align: center;
+
+            .image-2{
+                width: 30rem;
+            }
+        }
+    }
+}
