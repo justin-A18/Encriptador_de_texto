@@ -1,10 +1,7 @@
 ## Challenge Oracle ONE:
 ### Construye un encriptador de texto con Javascript
 
-<div style="position:relative;width:fit-content;height:fit-content;">
-            <iframe allowfullscreen style="border:none" src="https://clipchamp.com/watch/DWHOdinKIfe/embed" width="640" height="360"></iframe>
-</div>
-
+![encriptado_remo]("C:\Users\Efe comas 2.PLASTICOSNACION.000\Downloads\Vídeo sin título ‐ Hecho con Clipchamp.gif")
 [Echale un vistazo al encriptador "AQUI"](https://encriptador-texto-j.netlify.app/)
 </br></br></br>
 
