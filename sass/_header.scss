@@ -2,10 +2,12 @@
     display: flex;
     align-items: center;
     font-size: 1rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
     .picture{
-        padding: 1rem;
+        padding: 1rem 2rem;
         .image{
-            width: 5rem;
+            width: 2rem;
         }
     }
 }

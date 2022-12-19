@@ -23,8 +23,10 @@ function encriptar(){
     
     if(texto == ""){
         document.getElementById("subsection-none").style.display = "inherit";
+        document.getElementById("copiar").style.display = "none";
     }else{
         document.getElementById("subsection-none").style.display = "none";
+        document.getElementById("copiar").style.display = "block";
     }
 
 }
